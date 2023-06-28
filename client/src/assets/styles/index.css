@@ -1,0 +1,80 @@
+@import url("./variables.css");
+@import url("./reset.css");
+@import url("./utilities.css");
+
+/* main layout */
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex-grow: 1;
+}
+
+/* form styling */
+input[type='text'],
+input[type='email'],
+input[type='password'],
+input[type="file"],
+textarea {
+  display: block;
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid var(--clr-neutral-500);
+  border-radius: 0.25rem;
+  background-color: var(--clr-neutral-100);
+  color: var(--clr-neutral-900);
+  font-size: var(--step--1);
+  line-height: 1.5;
+}
+
+input[type="checkbox"] {
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+}
+
+/* quil text editor */
+.ql-container {
+  min-height: 10rem;
+}
+
+.form-group {
+  margin-bottom: var(--step--1);
+}
+
+/* pulse animation */
+
+.pulse-animation {
+  background: #eee;
+  background: linear-gradient(110deg, #ececec 8%, #f5f5f5 18%, #ececec 33%);
+  border-radius: 5px;
+  background-size: 200% 100%;
+  animation: 1.5s pulse linear infinite;
+}
+
+@keyframes pulse {
+  from {
+    background-position-x: 0%;
+  }
+
+  to {
+    background-position-x: -200%;
+  }
+}
+
+/* error styles. it has an image and a paragraph */
+.error {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: var(--step--1);
+}
+
+.error img {
+  width: 5rem;
+  height: 5rem;
+}

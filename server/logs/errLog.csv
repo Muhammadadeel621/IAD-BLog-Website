@@ -1,0 +1,32 @@
+20230620	17:39:13, a64db58a-3d86-4614-b36c-b59b2b565627, ReferenceError, whitelist is not defined
+20230620	17:40:43, ac3156b2-c74e-45b6-a9d7-68aeae611d65, Error, ENOENT: no such file or directory, stat 'C:\Users\STARIZ.PK\Desktop\mern-blog\server\views\404.html'
+20230620	21:10:10, 2ba68ca8-f458-47bb-9214-93d6e8bbc9db, TypeError, Cannot read properties of undefined (reading 'username')
+20230620	21:36:31, 530e19dd-a6f5-4ed4-9324-3b3357a9238a, MulterError, Unexpected field
+20230620	21:37:04, a910c180-b2ca-4433-af56-9545c552519b, MulterError, Unexpected field
+20230620	21:40:15, 51552019-b25e-471d-a88e-c81b6ea1ec34, MulterError, Unexpected field
+20230620	21:40:37, 7a51e9d2-65be-4ecd-ab35-74f04622c0d2, MulterError, Unexpected field
+20230620	21:41:11, 314247ac-6c2c-45ad-b676-70ef3404ba24, MulterError, Unexpected field
+20230620	21:43:51, df2d6dac-2dbc-4ae7-be82-081dd8522f20, MulterError, Unexpected field
+20230620	21:43:52, 0fe90b59-c674-46da-bd7b-2f5a7564d79b, MulterError, Unexpected field
+20230620	21:45:43, 755c8dc4-44b5-4e11-b303-bf32e50b3ed4, MulterError, Unexpected field
+20230620	21:46:51, 4d4c74b9-d9c2-4f84-ad0f-d40acaac8486, MulterError, Unexpected field
+20230620	21:47:07, 7fc79097-c720-41e5-ab18-0315a36afc1d, MulterError, Unexpected field
+20230620	21:48:01, 22c434d0-5bda-4da8-9558-26d6d491fdf0, MulterError, Unexpected field
+20230620	21:48:51, 877a46bf-cb48-4754-ac77-208e3ada6ff8, MulterError, Unexpected field
+20230620	21:49:19, 2ef19603-1b38-45b6-a43e-83b8d811cc1f, MulterError, Unexpected field
+20230620	21:49:45, 4f73710a-a9d8-40a5-a8ee-f88bade8b1e0, MulterError, Unexpected field
+20230620	21:49:59, 1962420c-727e-43da-b09c-59748d661ec0, MulterError, Unexpected field
+20230620	21:53:00, 7a774f04-f296-47ce-9aaf-13b8308a0ded, MulterError, Unexpected field
+20230620	21:53:12, c8080e71-86f1-451d-80c2-c70c12071ce7, MulterError, Unexpected field
+20230620	21:55:09, 4d11ddf1-4b98-45c9-be83-70ab775e7daf, MulterError, Unexpected field
+20230620	21:55:25, 2b9b8632-2f76-46d4-b5c6-cc53d4d3b1b3, MulterError, Unexpected field
+20230620	21:59:50, 4e4e0755-6544-4547-a139-17440082b828, MulterError, Unexpected field
+20230620	22:00:56, 513ca99c-58d9-4bbe-910b-6d1c31e449c2, MulterError, Unexpected field
+20230620	22:01:27, 2e35f532-74ad-4eda-8164-16bd03b83fb7, MulterError, Unexpected field
+20230620	22:03:46, 9e6d017c-390e-40ec-951d-32401f7c9684, MulterError, Unexpected field
+20230620	23:47:06, 133c7b8f-9e66-4694-93cc-5ec5f51d2bf1, TypeError, The "path" argument must be of type string. Received undefined
+20230620	23:48:16, 1953ab3a-6454-4b50-ac40-cb3262e68ed7, TypeError, The "path" argument must be of type string. Received undefined
+20230620	23:49:37, 591aa3d2-e0b1-4c29-a93b-6cf61ccd99e3, TypeError, The "path" argument must be of type string. Received undefined
+20230620	23:53:48, 1c9d9a83-e3cd-44c3-a1a6-c45d5b70068a, TypeError, The "path" argument must be of type string. Received undefined
+20230620	23:54:47, 2424d0df-7f13-47b4-9f5b-cad124ca84b1, TypeError, The "path" argument must be of type string. Received undefined
+20230622	20:22:54, 094371a3-0119-4414-ab1b-deff05d52a32, TypeError, Cannot read properties of undefined (reading 'name')

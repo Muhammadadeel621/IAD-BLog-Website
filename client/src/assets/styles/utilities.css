@@ -1,0 +1,125 @@
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 var(--step-1);
+}
+
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--flex-gap, 1rem)
+}
+
+.btn {
+  --bg-clr: var(--clr-neutral-100);
+  --text-clr: var(--clr-neutral-950);
+  --border-clr: var(--clr-neutral-400);
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--flex-gap, 0.75rem);
+  padding: var(--step--2) var(--step-2);
+  font-family: inherit;
+  font-size: var(--step--1);
+  line-height: 1;
+
+  outline: transparent;
+  border: 1px solid var(--border-clr, var(--clr-neutral-400));
+
+  background-color: var(--bg-clr, var(--clr-neutral-100));
+  color: var(--text-clr, var(--clr-neutral-950));
+  border-radius: var(--border-radius);
+
+  cursor: pointer;
+
+  transition: background-color 0.2s ease-in-out,
+    color 0.2s ease-in-out;
+}
+
+
+.btn:is(:hover, :focus-visible) {
+  --bg-clr: var(--clr-neutral-950);
+  --text-clr: var(--clr-neutral-100);
+}
+
+.btn--primary {
+  --bg-clr: var(--clr-blue-500);
+  --text-clr: var(--clr-neutral-100);
+  --border-clr: var(--clr-blue-500);
+}
+
+.btn--primary:is(:hover, :focus-visible) {
+  --bg-clr: var(--clr-blue-600);
+  --border-clr: var(--clr-blue-600);
+}
+
+.btn--danger {
+  --bg-clr: var(--clr-red-500);
+  --text-clr: var(--clr-neutral-100);
+  --border-clr: var(--clr-red-500);
+}
+
+.btn--danger:is(:hover, :focus-visible) {
+  --bg-clr: var(--clr-red-700);
+  --border-clr: var(--clr-red-700);
+}
+
+.btn--nude {
+  --bg-clr: transparent;
+  --text-clr: var(--clr-neutral-100);
+  --border-clr: transparent;
+
+  padding-inline: var(--step--2);
+  border: none;
+  border-radius: 0;
+
+  position: relative;
+}
+
+.btn--nude::before {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+
+  background-color: var(--clr-neutral-100);
+
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.2s ease-in-out;
+}
+
+.btn--nude:is(:hover, :focus-visible)::before {
+  transform: scaleX(1);
+}
+
+.btn:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.section-title--small {
+  font-size: var(--step-2);
+  font-weight: var(--fw-bold);
+  line-height: 1.25;
+  margin-bottom: var(--step--2);
+}
+
+.section-title {
+  font-size: var(--step-4);
+  font-weight: var(--fw-bold);
+  line-height: 1.25;
+  margin-bottom: var(--step--1);
+  text-align: center;
+}
+
+
+/* padding and margin classes */
+.py-200 {
+  padding-block: var(--step-2);
+}
